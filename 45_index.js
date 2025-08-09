@@ -9,7 +9,6 @@ myButton.onclick = () => {
         i++;
         if (i === text.length) {
             clearInterval(writer);
-            myButton.removeEventListener("click");
             i = 0;
         }
     }, 100);
