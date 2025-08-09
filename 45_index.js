@@ -9,6 +9,7 @@ myButton.onclick = () => {
         i++;
         if (i === text.length) {
             clearInterval(writer);
+             myButton.disabled = true;
             i = 0;
         }
     }, 100);
