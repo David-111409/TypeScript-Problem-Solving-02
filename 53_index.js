@@ -3,6 +3,8 @@ const inputArea = document.getElementById("area");
 const showTitle = document.getElementById("title-show");
 const showArea = document.getElementById("describe");
 
+// const updateText = (input, output) => (output.textContent = input.value);
+
 function updateText(input, output) {
     output.textContent = input.value;
 }
