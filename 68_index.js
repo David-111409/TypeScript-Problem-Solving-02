@@ -27,3 +27,22 @@ console.log(
 );
 
 console.log(st.replace(/^./, (m) => m.toUpperCase()));
+
+// other codes to test some ideas
+console.log(Number([]));
+console.log(0 == []);
+console.log(String([]));
+console.log(Boolean([]));
+console.log(typeof Number([1]));
+
+console.log(typeof undefined , typeof null);
+
+console.log([] == ![], "0" == false);
+console.log("0" == false, [] == {}, "0" == []);
+
+const ar = [1, 2, 3];
+ar.push(4);
+// ar = [1, 2, 3, 4]; // error
+console.log(ar);
+
+console.log()
