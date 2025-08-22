@@ -23,3 +23,12 @@ console.log(
         return obj;
     }, {})
 );
+let ar = [1, 2, 3, 4, 5, 2, 3, 3, 4, 5];
+
+// console.log(ar.indexOf(2));
+// console.log(ar.lastIndexOf(2));
+
+console.log(ar.findIndex((el) => el === 2));
+
+console.log(ar.filter((el) => ar.indexOf(el) === ar.lastIndexOf(el)));
+console.log(ar.filter((el, ind) => ind === ar.indexOf(el)));
