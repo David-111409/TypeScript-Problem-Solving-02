@@ -10,7 +10,7 @@ document.addEventListener("keydown", (e) => {
         message.push("shift");
     }
     if (message.length === 3) {
-        console.log("You Pressed Ctrl + Alt + Shift");
+        console.log("You Pressed", message.join(" + "));
         message = [];
     }
 });
